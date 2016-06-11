@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="yes" name="apple-touch-fullscreen" />
+    <meta content="telephone=no,email=no" name="format-detection" />
+    <title>海融盛世-女神节</title>
+    <script src="style/js/flexible.js"></script>
+    <link rel="stylesheet" href="style/css/common.css">
+    <link rel="stylesheet" href="style/css/girlsdayOther.css">
+</head>
+<body>
+        <div class="content-top">
+            <div class="ct-top">
+                <div class="ct-top-icon"></div>
+                <div class="ct-top-content">
+                    <div class="cttc-title">
+                        <div class="f32 text-black"><div class="cttc-name" id="tab-name">某某某某某</div></div>
+                        <div class="f30 text-dark-gray" id="tab-text">被大家贴最多的标签是</div>
+                        <div class="f32 text-white bg-blue cttc-tab" id="most-tab">白富美</div>
+                    </div>
+                    <div class="cttc-img"></div>
+                </div>
+            </div>
+            <div class="ct-bottom">
+                <a href="" class="cttc-btn"></a>
+            </div>
+        </div>
+        <div class="content-middle">
+            <div class="content-middle-top">
+                <!--已贴标签-->
+                <div class="cm-tab-wrapper" id="tabs-list"></div>
+                <!--已贴标签-->
+                <!--预设可选标签-->
+                <div class="cm-default-tab">
+                    <div class="cmdt-control">
+                        <input type="text" id="tab-input-text" class="f24 text-dark-gray" placeholder="请在4字以内描述对某某某的标签">
+                        <!--贴标签按钮-->
+                        <div class="tab-btn" id="tab-btn"></div>
+                    </div>
+                    <div class="cmdt-tabs">
+                        <div class="cmdt-tab f24 text-red">沉鱼落雁</div>
+                        <div class="cmdt-tab f24 text-red">女汉子</div>
+                        <div class="cmdt-tab f24 text-red">小家碧玉</div>
+                        <div class="cmdt-tab f24 text-red">冷艳女神</div>
+                        <div class="cmdt-tab f24 text-red">清纯可人</div>
+                        <div class="cmdt-tab f24 text-red">女神经</div>
+                        <div class="cmdt-tab f24 text-red">高贵女神</div>
+                        <div class="cmdt-tab f24 text-red">可爱女神</div>
+                    </div>
+                </div>
+                <!--预设可选标签-->
+                <!-- 已经对别人评价过才显示-->
+                <div class="cm-already-eval f28 text-dark-gray" id="already-eval">您对<span class="f32 text-black" id="eval-name">某某某</span>的标签是<span class="f32 text-red" id="eval-tab">白富美</span></div>
+                <!-- 已经对别人评价过才显示-->
+            </div>
+            <div class="eval-btn f30 text-white" id="eval-btn">我也是女神，让朋友来评价!</div>
+        </div> 
+        <!--收到的好友评价-->
+        <div class="content-bottom" style="position:relative;">
+            <div style="width:100%;height:100%;z-index:-1;position:absolute;background:url(style/img/content-bottom-bg.jpg) no-repeat;background-size:100% 100%;"></div>
+            <div style="width:100%;height:4.173rem;z-index:-1;position:absolute;background:url(style/img/content-bottom-top.png) no-repeat;background-size:100% 100%;"></div>
+            <div class="cb-title f30">
+                <div class="cbt-left text-dark-gray">收到的好友印象</div>
+                <div class="cbt-right text-red">共<span id="friend-count">13</span>人贴标签</div>
+            </div>
+            <div class="cb-avatars" id="friends-list">
+            </div>
+            <div style="width:100%;height:5.22rem;z-index:-1;position:absolute;bottom:0;background:url(style/img/content-bottom.png) no-repeat;background-size:100% 100%;"></div>
+        </div>
+        <!--收到的好友评价-->
+        <!--操作提示框-->
+        <div class="error-dialog">
+          <div class="f28">xxxxxxxx</div>
+        </div>
+        <!--操作提示框-->
+        <!--弹框-->
+        <div class="dialog">
+            <div class="dialog-img"></div>
+            <div class="dialog-btn" id="dialog-btn"></div>
+        </div>
+        <!--弹框-->
+        <input type="hidden" value="style/img/content-middle-eval-btn.png" id="current-friend">
+<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+<script src="style/js/util.js"></script>
+<script src="style/js/girlsdayOther.js"></script>
+</body>
+</html>

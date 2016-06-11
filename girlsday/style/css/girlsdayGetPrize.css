@@ -1,0 +1,14 @@
+.content{text-align:center;position:absolute;left:0;right:0;margin:auto;width:100%;}
+.get-prize-avatar{border-radius:50%;border:3px solid #f58299;margin:19.46% auto 17.06% auto;width:3.36rem;height:3.36rem;background:url(../img/get-prize-avatar.png) no-repeat;background-size:contain;}
+.get-prize-title{margin-bottom:5.6%;padding:0 5.3%;}
+.get-prize-title span{padding:0 1.5%;}
+.get-prize-tab{margin-bottom:12%;}
+.get-prize-click-btn{margin:0 5.3% 9.3% 5.3%;border:2px solid #dc415c;color:#ffffff;background:#f47e95;text-align: center;padding:4.4% 0;border-radius:10px;}
+a.friends-tabs-link:link,a.friends-tabs-link:visited,a.friends-tabs-link:hover,a.friends-tabs-link:active{text-decoration: underline;color:#448aca;}
+/*弹出框*/
+.dialog-get-price{height:10.53rem;width:100%;position:absolute;top:0;bottom:0;left:0;margin:auto;}
+.dgp-content{width:8.32rem;height:9.386rem;margin-left:5.73%;background:url(../img/dialog-get-prize-bg.png) no-repeat;background-size:contain;}
+.dgp-close-btn{width:0.613rem;height:0.613rem;top:-0.16rem;right:0.986rem;position:absolute;background:url(../img/dialog-close-btn.png) no-repeat;background-size:contain;}
+.line-one{padding-top:49.1%;}
+.dgp-content div{padding-left:28%;line-height: 1;margin-bottom:4%; letter-spacing: 2px}
+.dgp-btn{margin:auto 32.8%;background:#ffe71d;padding:1.86% 0 1.33% 0;box-shadow: 0 8px 0 #fa9144;border-radius:10px;color:#bf1e2e;font-weight: bold;text-align: center;line-height: 1;}

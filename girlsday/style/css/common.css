@@ -1,0 +1,177 @@
+*{ -webkit-tap-highlight-color: transparent;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:none;}
+html{font-family: "微软雅黑",arial, sans-serif;height:100%;width:100%;}
+body{background: #ffffff;width:100%;height:100%;}
+html,body,div,ul,li,dl,dt,dd{margin: 0;padding: 0;}
+li{list-style:none;}
+h1,h2,h3,h4,h5,h6{font-weight:lighter;}
+ul{list-style: none;}
+button{-webkit-appearance:none;outline: 0;}
+a:link,a:visited,a:hover,a:active{text-decoration: none;color:#cccccc;}
+.error-dialog{height:1.066rem;text-align:center;line-height:1.066rem;display: none;position:fixed;left:0;right:0;margin:auto;top:0;bottom:0;width:3.73rem;background: rgba(0,0,0,.5);border-radius: 10px;color: #fff;z-index: 100;box-sizing: border-box;-webkit-box-sizing: border-box;}
+button{-webkit-appearance: none;border:0;outline:none;color:#ffffff;}
+/*text-color*/
+.text-black{color:#000000;}
+.text-white{color:#ffffff;}
+.text-dark-gray{color:#333333;}
+.text-gray{color:#666666;}
+.text-light-blue{color:#7ecef4;}
+.text-blue{color:#448aca;}
+.text-light-pink{color:#f29c9f;}
+.text-pink{color:#ea68a2;}
+.text-dark-pink{color:#ec058e;}
+.text-red{color:#e5004f;}
+/*bg-color*/
+.bg-blue{background:#448aca;}
+.bg-light-blue{background:#7ecef4;}
+.bg-light-pink{background:#f29c9f;}
+.bg-pink{background:#ea68a2;}
+/*弹出框*/
+.dialog{display:none;position:fixed;left:0;top:0;height:100%;width:100%;background:rgba(0,0,0,0.8);z-index:9999;}
+.dialog-img{width:7.013rem;height:5.46rem;margin:6.6% auto 8.2% 18.4%;background:url(../img/dialog-img.png) no-repeat;background-size:contain;}
+.dialog-btn{margin:auto;width:3.44rem;height:1.413rem;background:url(../img/dialog-know-btn.png) no-repeat;background-size:contain;}
+
+/*font-size*/
+[data-dpr="1"] .f60{
+    font-size: 30px;
+}
+[data-dpr="2"] .f60{
+    font-size: 60px;
+}
+[data-dpr="3"] .f60{
+    font-size: 90px;
+}
+@media screen and(min-width: 401px){
+    [data-dpr="1"] .f60{
+        font-size: 60px;
+    }
+}
+[data-dpr="1"] .f50{
+    font-size: 25px;
+}
+[data-dpr="2"] .f50{
+    font-size: 50px;
+}
+[data-dpr="3"] .f50{
+    font-size: 75px;
+}
+@media screen and(min-width: 401px){
+    [data-dpr="1"] .f50{
+        font-size: 50px;
+    }
+}
+[data-dpr="1"] .f40{
+    font-size: 20px;
+}
+[data-dpr="2"] .f40{
+    font-size: 40px;
+}
+[data-dpr="3"] .f40{
+    font-size: 60px;
+}
+@media screen and(min-width: 401px){
+    [data-dpr="1"] .f40{
+        font-size: 40px;
+    }
+}
+[data-dpr="1"] .f36{
+    font-size: 18px;
+}
+[data-dpr="2"] .f36{
+    font-size: 36px;
+}
+[data-dpr="3"] .f36{
+    font-size: 54px;
+}
+@media screen and(min-width: 401px){
+    [data-dpr="1"] .f36{
+        font-size: 36px;
+    }
+}
+[data-dpr="1"] .f34{
+    font-size: 17px;
+}
+[data-dpr="2"] .f34{
+    font-size: 34px;
+}
+[data-dpr="3"] .f34{
+    font-size: 51px;
+}
+@media screen and(min-width: 401px){
+    [data-dpr="1"] .f34{
+        font-size: 34px;
+    }
+}
+[data-dpr="1"] .f32{
+    font-size: 16px;
+}
+[data-dpr="2"] .f32{
+    font-size: 32px;
+}
+[data-dpr="3"] .f32{
+    font-size: 48px;
+}
+@media screen and(min-width: 401px){
+    [data-dpr="1"] .f32{
+        font-size: 32px;
+    }
+}
+[data-dpr="1"] .f30{
+    font-size: 15px;
+    font-weight: bold;
+}
+[data-dpr="2"] .f30{
+    font-size: 30px;
+    font-weight: bold;
+}
+[data-dpr="3"] .f30{
+    font-size: 45px;
+    font-weight: bold;
+}
+@media screen and(min-width: 401px){
+    [data-dpr="1"] .f30{
+        font-size: 30px;
+    	font-weight: bold;
+    }
+}
+[data-dpr="1"] .f28{
+    font-size: 14px;
+}
+[data-dpr="2"] .f28{
+    font-size: 28px;
+}
+[data-dpr="3"] .f28{
+    font-size: 42px;
+}
+@media screen and(min-width: 401px){
+    [data-dpr="1"] .f28{
+        font-size: 28px;
+    }
+}
+[data-dpr="1"] .f24{
+    font-size: 12px;
+}
+[data-dpr="2"] .f24{
+    font-size: 24px;
+}
+[data-dpr="3"] .f24{
+    font-size: 36px;
+}
+@media screen and(min-width: 401px){
+    [data-dpr="1"] .f24{
+        font-size: 24px;
+    }
+}
+[data-dpr="1"] .f20{
+    font-size: 10px;
+}
+[data-dpr="2"] .f20{
+    font-size: 20px;
+}
+[data-dpr="3"] .f20{
+    font-size: 30px;
+}
+@media screen and(min-width: 401px){
+    [data-dpr="1"] .f20{
+        font-size: 20px;
+    }
+}
